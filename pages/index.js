@@ -1,7 +1,6 @@
 export default function Home() {
   return (
-  <>
-    <header>HEADER</header>
+  <> <header>HEADER</header>
 
     <main>
       <div>
