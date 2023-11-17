@@ -1,16 +1,11 @@
-export default function Home() {
+import Hero from '@/components/hero'
+
+export default function Hone () {
   return (
-  <>
-    <header>HEADER</header>
-
-    <main>
-      <div>
-        <h1>CUBE</h1>
-        <p>アウトプットしていくサイト</p>
-      </div>
-    </main>
-
-    <footer>FOOTER</footer>
-    </>
+      <Hero 
+      title="CUBE"
+      subtitle="アウトプットしていくサイト"
+      imageOn
+      />
   )
 }
