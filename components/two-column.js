@@ -9,9 +9,16 @@ export function TwoColumn({ children }) {
     )
 }
 
-export function TwoColumnSideber({ children}) {
+export function TwoColumnMain({ children }) {
     return (
-        <div className={styles.Sideber}>
+        <div className={styles.main}>
+            {children}
+        </div>
+    )
+}
+export function TwoColumnSideber({ children }) {
+    return (
+        <div className={styles.sideber}>
             {children}
         </div>
     )
