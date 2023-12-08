@@ -1,4 +1,6 @@
-import  style from 'styles/hero.module.css'
+import style from 'styles/hero.module.css'
+import Image from 'next/image'
+import cube from 'images/cube.jpg'
 
 export default function Hero({ title, subtitle, imageOn = false }) {
     return (
@@ -8,8 +10,8 @@ export default function Hero({ title, subtitle, imageOn = false }) {
             <p className={style.subtitle}>{subtitle}</p>
         </div>
             {imageOn && (
-            <figure className={styles.image}>
-                <Image 
+            <figure className={style.image}>
+                <Image
                     src={cube}
                     alt="" 
                     layout="responsive"
