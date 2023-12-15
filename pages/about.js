@@ -1,4 +1,4 @@
-import Meta from 'components/meta'
+import Meta from 'next/head'
 import Container from 'components/container'
 import Hero from 'components/hero'
 import PostBody from 'components/post-body'
