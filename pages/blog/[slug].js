@@ -40,6 +40,7 @@ export default function Post({
 
                 <figure>
                     <Image
+                    key={eyecatch.url}
                     src={eyecatch.url}
                     alt=""
                     layout="responsive"
@@ -81,7 +82,7 @@ export async function getStaticPaths() {
     }
 }
 
-export async function getStaticPaths(context) {
+export async function getStaticProps(context) {
     const slug = context.params.slug
 
     const post = await getPostBySlug(slug)
