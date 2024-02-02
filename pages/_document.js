@@ -5,7 +5,7 @@ const { siteLang } = siteMeta
 
 export default function Document() {
   return (
-    <Html >
+    <Html lang={siteLang}>
       <Head />
       <body>
         <Main />
