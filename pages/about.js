@@ -3,7 +3,7 @@ import Accordion from '../components/accordion'
 import Container from 'components/container'
 import Hero from 'components/hero'
 import PostBody from 'components/post-body'
-import { TwoColumn, TwoColumnMain, TwoColumnSideber} from 'components/two-column'
+import { TwoColumn, TwoColumnMain, TwoColumnSidebar} from 'components/two-column'
 import Image from 'next/image'
 import eyecatch from 'images/about.jpg'
 
@@ -78,9 +78,9 @@ export default function About() {
         </PostBody>
       </TwoColumnMain>
         
-      <TwoColumnSideber>
+      <TwoColumnSidebar>
         <Container />
-      </TwoColumnSideber>
+      </TwoColumnSidebar>
     </TwoColumn>
   </Container>
   )
