@@ -5,7 +5,14 @@ import Hero from 'components/hero'
 import PostBody from 'components/post-body'
 import { TwoColumn, TwoColumnMain, TwoColumnSideber} from 'components/two-column'
 import Image from 'next/image'
-import eyecatch from 'images/about.jpg'
+// import eyecatch from 'images/about.jpg'
+
+const eyecatch = {
+  src: 'https://images.microcms-assets.io/assets/.../about.jpg',
+  height: 960,
+  width: 1920,
+  blurDataURL: 'data:image/jpag;basse64',
+}
 
 export default function About() {
   return (
