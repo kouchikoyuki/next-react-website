@@ -67,8 +67,3 @@
     transform: rotate(180deg);
 }
 
-/*テキスト*/
-.textInner {
-    padding: 0 1.14em 1.14em;
-    font-size: calc(var(--body) * 0.875);
-}

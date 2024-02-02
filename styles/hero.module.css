@@ -10,7 +10,7 @@
 .title {
     font-size: var(--display);
     font-weight: 900;
-    letter-spacing: 0.15;
+    letter-spacing: 0.15em;
 }
 
 .subtitle {

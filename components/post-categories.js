@@ -1,4 +1,4 @@
-import styles from '../post-categories.module.css'
+import styles from 'styles/post-categories.module.css'
 import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFolderOpen } from '@fortawesome/free-regular-svg-icons'
@@ -14,7 +14,7 @@ export default function PostCategories({ categories }) {
                 {categories.map(({ name, slug }) => (
                     <li key={slug}>
                         <Link href={'/blog/category/${slug}'}>
-                            <a>{name}</a>
+                            {name}
                         </Link>
                     </li>
                 ))}
